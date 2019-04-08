@@ -6,8 +6,8 @@
 #include <SoftwareSerial.h>
 
 #ifndef STASSID
-#define STASSID "WIFI"
-#define STAPSK  "PASSWORD"
+#define STASSID "iPhone"
+#define STAPSK  "alioblet"
 #endif
 const char* ssid = STASSID;
 const char* password = STAPSK;
