@@ -6,8 +6,8 @@
 #include <SoftwareSerial.h>
 
 #ifndef STASSID
-#define STASSID "iPhone"
-#define STAPSK  "alioblet"
+#define STASSID "WIFI"
+#define STAPSK  "PASSWORD"
 #endif
 const char* ssid = STASSID;
 const char* password = STAPSK;
@@ -20,7 +20,6 @@ const int httpsPort = 443;
 // SHA1 fingerprint of the certificate
 const char fingerprint[] PROGMEM = "3ab0b1c27f746fd90c34f0d6a960cf73a4229de8";
 Rdm6300 rdm6300;
-bool flop = false;
 
 
 
